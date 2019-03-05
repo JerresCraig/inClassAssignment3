@@ -24,6 +24,7 @@ namespace inClassAssignment3
             double marsWeight = (weight / 9.81) * 3.771;
             textBox2.Text = marsWeight.ToString();
 
+
         }
   
         //divide by 9.81

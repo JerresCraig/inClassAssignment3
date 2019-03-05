@@ -38,7 +38,7 @@
             // convertBtn
             // 
             this.convertBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.convertBtn.Location = new System.Drawing.Point(464, 309);
+            this.convertBtn.Location = new System.Drawing.Point(464, 284);
             this.convertBtn.Name = "convertBtn";
             this.convertBtn.Size = new System.Drawing.Size(128, 61);
             this.convertBtn.TabIndex = 0;
