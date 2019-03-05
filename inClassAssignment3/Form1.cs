@@ -16,5 +16,19 @@ namespace inClassAssignment3
         {
             InitializeComponent();
         }
+
+        private void convertBtn_Click(object sender, EventArgs e)
+        {
+            string strWeight = textBox1.Text;
+            double weight = double.Parse(strWeight);
+            double marsWeight = (weight / 9.81) * 3.771;
+            textBox2.Text = marsWeight.ToString();
+
+        }
+  
+        //divide by 9.81
+        //multiply by 3.771
+      
+
     }
 }
